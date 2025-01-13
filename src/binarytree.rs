@@ -73,7 +73,7 @@ impl<T:std::fmt::Debug> MyBinaryTree<T>{
         }
     }
 }
-fn run() {
+pub fn run() {
     let mut tree = MyBinaryTree::new();
     tree.insert_new_node(10);
 
